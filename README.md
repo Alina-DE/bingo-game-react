@@ -5,4 +5,4 @@
 
 ### Demo: 
 ***
-![demo1](./src/images/demo1.png)
+![demo](./src/images/demo.png)
