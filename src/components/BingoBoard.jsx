@@ -61,7 +61,7 @@ function BingoBoard() {
             {win ?
                 <div className="bingo">
                     <div>🎆🎆🎆🎆🎆🎆🎆</div>
-                    <h4>🎆 You Won!!! 🎆</h4>
+                    <h4>🎆 !!! Bingo !!! 🎆</h4>
                     <div>🎆🎆🎆🎆🎆🎆🎆</div>
                 </div>
                 :

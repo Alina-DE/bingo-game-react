@@ -18,9 +18,9 @@ const cardsArray = [
     "I had connection issues",
     "I'll have to get back to you",
     "Who just joined?",
-    "Sorry, something .... with my calender",
+    "Sorry, something ..... with my calender",
     "Can you see my screen?",
-    "Let's wait for ...!",
+    "Let's wait for ......!",
     "Will you send the minutes?",
     "Sorry, I was on mute",
     "Can you repeat, please?"

@@ -10,12 +10,11 @@
 }
 
 body {
-  padding: 30px 20px;
   height: 100vh;
   
   font-family: 'Lato', sans-serif;
   color: #051644;
-  background: linear-gradient(-45deg, rgba(244, 175, 27, 0.5), rgba(96, 119, 192, 0.7), rgba(244, 175, 27, 0.5));
+  background: linear-gradient(-15deg, rgba(244, 175, 27, 0.5), rgba(96, 119, 192, 0.7), rgba(244, 175, 27, 0.5));
 
   h1, h2, h3, h4 {
     padding: 6px;
@@ -23,7 +22,7 @@ body {
     color: #455073;
   }
 
-  @media screen and (max-width: 670px) {
-    padding: 10px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

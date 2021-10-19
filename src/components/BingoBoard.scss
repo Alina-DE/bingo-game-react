@@ -2,7 +2,6 @@
     position: relative;
     width: 500px;
     height: 500px;
-    margin: 0 auto;
     font-size: 0.9rem;
 
     @media screen and (max-width: 668px) {
@@ -22,8 +21,8 @@
         background: rgba(244, 175, 27, 0.6);
 
         border-radius: 7px;
-        width: 300px;
-        padding: 10px 0;
+        width: fit-content;
+        padding: 15px;
 
         position: absolute;
         left: 50%;
@@ -34,8 +33,11 @@
         animation: bingo 3.5s linear infinite alternate ;
 
         @media screen and (max-width: 480px) {
-            width: 260px;
             font-size: 20px;
+        }
+
+        h4 {
+            padding: 12px 0;
         }
     }
 
@@ -88,11 +90,14 @@
         .chosen {
             background: #6077c0;
             color: white;
+            text-decoration: line-through;
         }
 
         #center12 {
             background: rgba(244, 175, 27, 0.8);
             color: #455073;
+            text-decoration: none;
+
 
             &:hover {
                 cursor: unset ;

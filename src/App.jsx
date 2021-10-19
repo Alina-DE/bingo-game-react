@@ -3,9 +3,7 @@ import BingoBoard from "./components/BingoBoard";
 
 const App = () => {
   return (
-    <div>
-      <h2>Zoom Bingo!</h2>
-      
+    <div>      
       <BingoBoard />
     </div>
   );
