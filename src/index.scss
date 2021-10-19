@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/* reset css */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+}
+
+body {
+  padding: 30px 20px;
+  height: 100vh;
+  
+  font-family: 'Lato', sans-serif;
+  color: #051644;
+  background: linear-gradient(-45deg, rgba(244, 175, 27, 0.5), rgba(96, 119, 192, 0.7), rgba(244, 175, 27, 0.5));
+
+  h1, h2, h3, h4 {
+    padding: 6px;
+    text-transform: uppercase;
+    color: #455073;
+  }
+
+  @media screen and (max-width: 670px) {
+    padding: 10px;
+  }
+}
